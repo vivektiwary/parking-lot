@@ -1,11 +1,8 @@
-PATH
-  remote: .
-  specs:
-    parking_lot (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
+    algorithms (0.6.1)
+    byebug (11.0.0)
     diff-lcs (1.3)
     rake (10.5.0)
     rspec (3.8.0)
@@ -26,10 +23,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 2.0)
-  parking_lot!
-  rake (~> 10.0)
-  rspec (~> 3.0)
+  algorithms
+  bundler
+  byebug
+  rake
+  rspec
 
 BUNDLED WITH
    2.0.1

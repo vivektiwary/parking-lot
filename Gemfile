@@ -1,4 +1,9 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
 # Specify your gem's dependencies in parking_lot.gemspec
-gemspec
+
+gem 'algorithms'
+gem 'bundler'
+gem 'byebug'
+gem 'rake'
+gem 'rspec'
